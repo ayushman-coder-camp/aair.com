@@ -1,0 +1,158 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: cursive;
+	background: url(img/back.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+	background-repeat: no-repeat;
+}
+
+ul{
+	list-style: none;
+}
+
+a{
+	text-decoration: none;
+}
+
+nav{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background: yellow;
+	color: black;
+}
+
+nav .logo{
+	display: flex;
+}
+
+nav .logo h2{
+	margin-left: 10px;
+	font-size: 30px;
+}
+
+nav .logo img{
+	width: 30%;
+}
+
+nav ul{
+	display: flex;
+}
+
+nav ul li a{
+	font-size: 1.5rem;
+	color: #000;
+	padding: 10px;
+	transition: 0.6s ease;
+}
+
+nav ul li a.active{
+	background: #ff6600;
+	color: #fff;
+}
+
+nav ul li a:hover{
+	background: #ff6600;
+	color: #fff;
+}
+
+#top{
+	margin-left: 90%;
+}
+
+#top h1{
+	font-size: 40px;
+}
+
+#top button{
+	width: 80%;
+	height: 80px;
+	border-radius: 20px;
+	font-size: 20px;
+	background: red;
+	color: white;
+}
+
+#top button:hover{
+	background: yellow;
+	color: black;
+}
+
+table tr th{
+	background: #e2e2e2;
+	padding: 20px;
+	width: 120px;
+	font-size: 18px;
+}
+
+table tr td{
+	background: red;
+	color: white;
+	padding: 20px;
+	width: 120px;
+	font-size: 18px;
+	text-align: center;
+}
+
+#time h1{
+	font-size: 42px;
+}
+
+#about{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+#about .img img{
+	width: 40%;
+}
+
+#about .h1 button{
+	width: 40%;
+	height: 50px;
+	border-radius: 20px;
+	font-size: 20px;
+	background: red;
+	color: white;
+}
+
+#about .h1 button:hover{
+	background: yellow;
+	color: black;
+}
+
+#about .h1 .bar{
+	width: 60%;
+	background: yellow;
+	height: 20px;
+}
+
+#contact form input,textarea{
+	width: 60%;
+}
+
+#contact form input{
+	height: 30px;
+}
+
+#contact form textarea{
+	height: 200px;
+}
+
+#contact button{
+	width: 40%;
+	height: 50px;
+	border-radius: 20px;
+	font-size: 20px;
+	background: red;
+	color: white;
+}
+
+#contact button:hover{
+	background: yellow;
+	color: black;
+}
